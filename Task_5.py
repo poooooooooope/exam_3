@@ -32,9 +32,17 @@ class WorkWithCsvFile:
         
         for row in csv_file:
             if number == row[1]:
-         print (row)
+                print(row)
         
-
+# enter your csv file
 file_name = ''
 
+# if you want to add new row
+newrow = []
+
 csv_file = WorkWithCsvFile(file_name)
+csv_file.sort_by_first_field()
+csv_file.add_a_row(newrow)
+csv_file.update_a_row()
+csv_file.correct_a_row()
+csv_file.search_elements_by_condition(1)
