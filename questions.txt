@@ -7,6 +7,12 @@
 2) SQL(structured query language) - это язык структурированных запросов с помощью него мы можем управлять базами данных,
 создавать их, удалать, редактировать, добавлять что-то и т.д,
 еще SQL называют СУБД(система управления базами данных)
+Примеры SQL кода:
+CREATE DATEBASE Categoty;
+\c Category
+CREATE TABLE Candeis(id, name);
+INSERT INTO Candies(id, name) values(1, Chocolate);
+SELECT * FROM Candies;
 
 3) ORM(Object-Relational Mapping) переводится как объектно-реляционное отображение, проще говоря, это технология, которая
 позволяет упрявлять базами данных с помощью языка
